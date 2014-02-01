@@ -47,6 +47,9 @@
 	// inttypes.h for PRIx16, PRIx32, etc. macros
 	#include <inttypes.h>
 
+	// Fix for MingW 4.1 wtypes include: 1/2/2014 -- http://sourceforge.net/p/mingw/bugs/2047/
+	#include <windows.h>
+	
 	// for HANDLE type used in xbee_serial_t
 	#include <wtypes.h>
 
